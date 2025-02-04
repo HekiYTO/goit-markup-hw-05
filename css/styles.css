@@ -569,11 +569,10 @@ text-align: left;
     position: absolute;
     top: 50%;
     left: 50%;
-    box-shadow: 0px 1px 1px 0px #00000024;
-    box-shadow: 0px 1px 3px 0px #0000001F;
-    box-shadow: 0px 2px 1px 0px #00000033;
+    box-shadow: 0px 1px 1px 0px #00000024, 0px 1px 3px 0px #0000001F, 0px 2px 1px 0px #00000033;
     background-color: #FCFCFC ;
-    min-width: 408px;
+    width: 408px;
+    min-height: 584px;
     padding: 16px;
     display: flex ;
     flex-direction: column;
@@ -581,6 +580,13 @@ text-align: left;
 }
 
 .s-one-overlay-close {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    top: 24px;
+    right: 24px;
     margin: 0 0 0 auto;
     width: 24px;
     height: 24px;
