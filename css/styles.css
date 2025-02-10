@@ -618,7 +618,9 @@ text-align: left;
 }
 
 .s-one-overlay-text {
-padding: 12px;
+    margin-bottom: 16px;
+padding: 72px 24px 24px 24px;
+color:#2E2F42 ;
 font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
@@ -634,9 +636,9 @@ text-align: center;
 }
 
 .s-one-overlay-form-input {
-    border: 1px solid #2E2F4266;
+    width: 100%;
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
-    width: 360px;
     height: 40px;
 }
 
@@ -646,6 +648,16 @@ text-align: center;
 }
 
 .label-one {
-    display: flex;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    display: block; 
+    margin-bottom: 4px;
+    display: block;
     flex-direction: column;
+}
+
+.s-one-overlay-label-div {
+    margin-bottom: 8px;
 }
