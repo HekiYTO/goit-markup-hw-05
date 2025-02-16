@@ -734,7 +734,7 @@ text-align: center;
 
 
 
-.input-class:checked + .label-class > .span-class {
+.s-one-overlay-form-input:checked + .label-one > .overlay-accept-checkbox {
     background-color: #404BBF
 ;
     border: none;
