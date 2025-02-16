@@ -734,9 +734,8 @@ text-align: center;
 
 
 
-.s-one-overlay-form-input:checked + {
-    background-color: #404BBF
-;
+.vsh:checked + {
+    background-color: #404BBF;
     border: none;
     fill: #F4F4FD
 ;
