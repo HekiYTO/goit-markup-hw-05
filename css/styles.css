@@ -733,6 +733,14 @@ text-align: center;
 
 }
 
+
+
+.overlay-accept-checkbox.checked {
+    background-color: #404bbf; 
+    border: none;
+    fill: #F4F4FD;
+}
+
 .overlay-accept-checkbox {
     width: 16px;
     height: 16px;
@@ -743,12 +751,6 @@ text-align: center;
     align-items: center; 
     justify-content: center; 
     fill: transparent;
-}
-
-.overlay-accept-checkbox.checked {
-    background-color: #404bbf; 
-    border: none;
-    fill: #F4F4FD;
 }
 
 .overlay-a-checkbox {
