@@ -734,7 +734,7 @@ text-align: center;
 
 
 
-.vsh:checked + {
+#user-privacy:checked {
     background-color: #404BBF;
     border: none;
     fill: #F4F4FD
