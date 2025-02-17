@@ -734,7 +734,7 @@ text-align: center;
 
 
 
-.s-one-overlay-input-checkbox + .s-one-overlay-form-div-label-dva > .overlay-accept-checkbox {
+.s-one-overlay-input-checkbox:checked + .s-one-overlay-form-div-label-dva > .overlay-accept-checkbox {
     background-color: #404BBF;
     border: none;
     fill: #F4F4FD
